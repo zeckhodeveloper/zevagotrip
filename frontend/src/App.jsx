@@ -10,13 +10,13 @@ import TravelGuide from './pages/TravelGuide'
 
 const App = () => {
   return (
-    <div className='text-inter'>
+    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='contact-us' element={<ContactUs />} />
-        <Route path='about-us' element={<AboutUs />} />
-        <Route path='destination' element={<Destination />} />
-        <Route path='travel-guide' element={<TravelGuide />} />
+        <Route path='/destination' element={<Destination />} />
+        <Route path='/travelguide' element={<TravelGuide />} />
+        <Route path='/contact' element={<ContactUs />} />
+        <Route path='/about' element={<AboutUs />} />
       </Routes>
     </div>
   )

@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <div className='bg-gray-500 h-screen'>
+      <Navbar/>
+    </div>
   )
 }
 
